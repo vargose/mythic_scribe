@@ -1,0 +1,17 @@
+#app-grid {
+    layout: grid;
+    grid-size: 1;
+    grid-rows: 1fr auto;
+}
+
+#game-log {
+    border: thick $panel;
+    background: $surface;
+}
+
+#command-input {
+    height: 3;
+    border: thick $accent;
+    background: $panel;
+    color: $text;
+}
